@@ -1,0 +1,64 @@
+.row {
+	background-color: #1B2426;
+	color: #B9BDB6;
+}
+
+.row a {
+	color: #5BA1CF;
+}
+
+table td {
+	padding: 3px 10px;
+	margin: 0px;
+}
+
+.main {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+#newbtn {
+ 	float: right;
+ 	cursor: pointer;
+ 	font-weight: bold;
+ 	padding: 2px 5px;
+ 	border: 1px solid #1B2426;
+ 	color: #5BA1CF;
+  	background-color: #1B2426;
+}
+
+
+.actions input {
+	border: 1px solid #1B2426;
+  	color: #5BA1CF;
+  	background-color: #1B2426;
+  	padding: 2px 5px;
+  	font-weight: bold;
+  	cursor: pointer;
+}
+
+#noticebox {
+	height: 30px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#notice {
+	color: #5CE638;
+	text-align: center;
+	width: 100%;
+	padding: 3px;
+}
+
+#controlpanel {
+	background-color: #DEDEDE;
+	padding: 5px;
+}
+
+.col {
+	float: left;
+	margin-right: 30px;
+}

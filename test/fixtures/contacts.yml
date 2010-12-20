@@ -1,0 +1,100 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  firstname: Ben
+  lastname: Jamin
+  address: 87 Koogler Street
+  phone: (786) 123-4912
+  email: benjamin@whodathunkit.com
+
+two:
+  firstname: Chris
+  lastname: Farley
+  address: 876 Van by River
+  phone: 876 923 0012
+  email: cfarley@nbc.com
+  
+three:
+  firstname: Danny
+  lastname: DeVito
+  address: 983 Twins was a great movie Road
+  phone: 6259823351
+  email: d@devito.net
+  
+four:
+  firstname: Chip
+  lastname: Potatoe
+  address: 4 Crispy Lane
+  phone: 593-223-9823
+  email: potaytow@tuber.org
+  
+  
+missing_fname:
+  firstname:
+  lastname: Smith
+  address: 123 Street Road
+  phone: 123-456-7890
+  email: joesmith@person.com
+
+short_fname:
+  firstname: J
+  lastname: Smith
+  address: 123 Street Road
+  phone: 123-456-7890
+  email: joesmith@person.com
+  
+missing_lname:
+  firstname: Joe
+  lastname:
+  address: 123 Street Road
+  phone: 123-456-7890
+  email: joesmith@person.com
+  
+short_lname:
+  firstname: Joe
+  lastname: S
+  address: 123 Street Road
+  phone: 123-456-7890
+  email: joesmith@person.com
+  
+missing_addr:
+  firstname: Joe
+  lastname: Smith
+  address:
+  phone: 123-456-7890
+  email: joesmith@person.com
+  
+missing_phone:
+  firstname: Joe
+  lastname: Smith
+  address: 123 Street Road
+  phone:
+  email: joesmith@person.com
+  
+missing_email:
+  firstname: Joe
+  lastname: Smith
+  address: 123 Street Road
+  phone: 123-456-7890
+  email:
+  
+unformatted_email:
+  firstname: Joe
+  lastname: Smith
+  address: 123 Street Road
+  phone: 123-456-7890
+  email: klsdfsdf83734
+  
+unformatted_phone1:
+  firstname: Joe
+  lastname: Smith
+  address: 123 Street Road
+  phone: kasdkasjd
+  email: joesmith@person.com
+    
+unformatted_phone2:
+  firstname: Joe
+  lastname: Smith
+  address: 123 Street Road
+  phone: 1234567890123456779987
+  email: joesmith@person.com  
