@@ -1,0 +1,15 @@
+<% 
+if @contact.errors.any? %>
+   
+$("#errorbox").show();
+$("#errorbox").html("<%= escape_javascript( render(:partial => "errors") )%>");
+
+<% else %>
+
+$('#searchbox').val('');
+cancelForm();
+updateNotice("Your record has been saved.");
+$("#record_list").html("<%= escape_javascript( render(:partial => "records") ) %>");
+
+
+<% end %>

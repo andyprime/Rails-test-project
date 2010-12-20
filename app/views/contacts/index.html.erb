@@ -1,0 +1,23 @@
+<div class="main">
+<h1>Super Fun Test Application</h1>
+</div>
+
+
+<div class="main">
+
+<div id="noticebox">
+<div id="notice" style="display: none;"></div>
+</div>
+
+<div id="controlpanel">
+<div id="newbtn">New Record</div>
+<b>Filter results</b> <input type="text" id="searchbox" style="width: 300px;" />
+<div style="clear: both;"></div>
+<div id="hiddenbit" style="display: none;">
+<%=  @contact = Contact.new
+	 render :partial => 'form' %></div>
+</div></div>
+
+<div class="main" id="record_list">
+<%= render :partial => 'records' %>
+</div>

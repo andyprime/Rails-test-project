@@ -1,0 +1,45 @@
+<%= form_for(@contact, :remote => true) do |f| %>
+
+<div id="errorbox" style="display: none;">xxx</div>
+
+<div class="col">
+
+  <div class="field">
+    <% f.label :firstname %>
+    First name
+    <br />
+    <%= f.text_field :firstname %>
+  </div>
+  <div class="field">
+    <% f.label :lastname %>
+    Last name
+    <br />
+    <%= f.text_field :lastname %>
+  </div>
+</div>
+  
+<div class="col">
+  <div class="field">
+    <%= f.label :address %><br />
+    <%= f.text_field :address %>
+  </div>
+
+  <div class="field">
+    <%= f.label :phone %><br />
+    <%= f.text_field :phone %>
+  </div>
+</div>  
+  
+<div class="col">
+  <div class="field">
+    <%= f.label :email %><br />
+    <%= f.text_field :email %>
+  </div>
+</div>
+  
+  <div class="actions" style="clear: both;"	>
+    <%= f.submit %>
+    
+    <input type="button" value="Cancel" id="form_cancel" />
+  </div>
+<% end %>

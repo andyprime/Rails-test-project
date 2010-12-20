@@ -1,0 +1,30 @@
+<table class="main" cellspacing="0">
+  <tr>
+    <th>First</th>
+    <th>Last</th>
+    <th>Address</th>
+    <th>Phone</th>
+    <th>Email</th>
+    <th></th>
+    <!--<th></th>
+    <th></th>-->
+  </tr>
+
+<% @contacts.each do |contact| %>
+  <tr class="row">
+    <td><%= contact.firstname %></td>
+    <td><%= contact.lastname %></td>
+    <td><%= contact.address %></td>
+    <td><%= contact.phone %></td>
+    <td><%= contact.email %></td>
+    <!--<td><%= link_to 'Show', contact %></td>-->
+    <!--<td><%= link_to 'Edit', edit_contact_path(contact) %></td>-->
+    <td><%= link_to 'Delete Record', contact, :confirm => 'Are you sure?', :method => :delete, :remote => true %></td>
+  </tr>
+<% end %>
+
+
+<% if @contacts.count == 0 && @query %>
+<tr class="row"><td colspan="6">No records match that name search</td></tr>
+<% end %>
+</table>
