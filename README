@@ -1,3 +1,5 @@
 This is the test application written by Andrew Wright for Agora Games
 
 A work version of it can be found at http://lobachevsky.net/rails/ which is running on Apache using the Passenger software to support Rails.  This project represents my first exposure to and use of Passenger, Ruby and Rails.
+
+The project requirements weren't too specific about certain details so I took a little leeway in using Ajax to make it a single page affair, along with replacing prototype with jQuery (making sure to install the Rails driver).
